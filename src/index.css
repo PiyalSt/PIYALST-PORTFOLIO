@@ -1,0 +1,53 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /* fonts */
+  --font-inter: "Inter", sans-serif;
+  --font-firaCode: "Fira Code", monospace;
+
+  /* colors */
+  --color-bg: #0d0f1a;
+  --color-surface: #141726;
+  --color-surface2: #1c2035;
+  --color-border: #2a2f4a;
+  --color-accent: #88ce02;
+  --color-accent2: #00d4ff;
+  --color-accent3: #ff6b35;
+  --color-accent4: #b57bee;
+  --color-text: #e8eaf0;
+  --color-text-muted: #7a8099;
+  --color-text-dim: #4a5070;
+  --color-code-bg: #0a0c14;
+}
+
+/* *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--ff);
+  font-size: 16px;
+  line-height: 1.8;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border2);
+  border-radius: 3px;
+} */
