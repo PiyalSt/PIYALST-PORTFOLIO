@@ -6,8 +6,8 @@ import { PiGraduationCapBold } from "react-icons/pi";
 
 const Education = () => {
   return (
-    <div className="py-12 bg-bg">
-      <div className="max-w-7xl mx-auto my-12">
+    <div className="py-6 lg:py-12 bg-bg">
+      <div className="max-w-7xl mx-auto lg:my-12 px-4 pb-12">
         <Title
           subtitle={"my journey"}
           title1={"My"}
@@ -16,7 +16,7 @@ const Education = () => {
         />
       </div>
 
-      <div className="max-w-3xl mx-auto px-4 mt-16">
+      <div className="max-w-3xl mx-auto px-4 pt-12 border border-surface2">
         <div className="relative">
 
           {/* Vertical Line */}

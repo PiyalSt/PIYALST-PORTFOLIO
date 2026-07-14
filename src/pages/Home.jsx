@@ -27,12 +27,13 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="w-full bg-bg overflow-hidden">
-      <div className="flex justify-between items-center gap-6 max-w-7xl mx-auto">
+    <div className="w-full bg-bg overflow-hidden px-4">
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
         
         {/* Hero Text */}
-        <div id="heroText" className="mb-20">
-          <Title
+        <div id="heroText" className="py-6 lg:py-12 bg-bg">
+          <div className="max-w-7xl mx-auto lg:my-12 px-4">
+            <Title
             subtitle={"who I am"}
             title1={"Hi, I'm"}
             title2={"Piyal"}
@@ -41,6 +42,7 @@ const Home = () => {
               "A passionate Frontend Developer from Bangladesh, building fast, beautiful, and interactive web experiences with modern tools."
             }
           />
+          </div>
           <div id="hireBtn" className="mt-20 flex gap-6">
             <Button
               sx={{ color: "#88ce02", borderColor: "#88ce02" }}
@@ -60,10 +62,10 @@ const Home = () => {
         </div>
 
         {/* Hero Card */}
-        <div className="my-11">
+        <div className="my-11 px-2">
           <div
             id="heroCart"
-            className="min-w-120 flex flex-col justify-center items-center gap-4 bg-surface p-10 border-2 border-border shadow rounded-sm"
+            className="w-full lg:min-w-120 flex flex-col justify-center items-center gap-4 bg-surface p-10 border-2 border-border shadow rounded-sm"
           >
             {/* Profile Image */}
             <div className="w-40 h-40 rounded-full">
@@ -85,11 +87,11 @@ const Home = () => {
             </div>
 
             {/* Stats Grid */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="w-full flex flex-wrap items-center lg:grid grid-cols-2 gap-4">
               {stats.map((stat, index) => (
                 <div
                   key={index}
-                  className="w-40 h-24 flex flex-col justify-center items-center bg-surface2 border border-border text-center"
+                  className="w-full sm:w-40 h-24 flex flex-col justify-center items-center bg-surface2 border border-border text-center"
                 >
                   <h4 className="font-firaCode font-bold text-3xl text-accent">
                     {stat.value}
@@ -103,7 +105,6 @@ const Home = () => {
 
           </div>
         </div>
-
       </div>
     </div>
   );

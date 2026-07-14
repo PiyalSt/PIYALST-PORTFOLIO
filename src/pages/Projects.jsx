@@ -66,8 +66,8 @@ const ProjectCard = ({ item }) => (
 
 const Projects = () => {
   return (
-    <div className="py-12 bg-bg">
-      <div className="max-w-7xl mx-auto my-12">
+    <div className="py-6 lg:py-12 bg-bg">
+      <div className="max-w-7xl mx-auto lg:my-12 px-4 pb-12">
         <Title
           subtitle={"what I've built"}
           title1={"My"}
@@ -76,7 +76,7 @@ const Projects = () => {
         />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4 pt-12 border border-surface2">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((item, index) => (
             <ProjectCard key={index} item={item} />

@@ -144,8 +144,8 @@ const LearningHub = () => {
   const [activeTab, setActiveTab] = useState("courses");
 
   return (
-    <div className="py-12 bg-bg">
-      <div className="max-w-7xl mx-auto my-12">
+    <div className="py-6 lg:py-12 bg-bg">
+      <div className="max-w-7xl mx-auto lg:py-12 px-4 pb-12">
         <Title
           subtitle={"what I'm learning"}
           title1={"Learning"}
@@ -154,7 +154,7 @@ const LearningHub = () => {
         />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4 pt-12 border border-surface2">
         {/* Tabs */}
         <div className="flex gap-4 border-b border-surface2 mb-10">
           {["courses", "notes"].map((tab) => (

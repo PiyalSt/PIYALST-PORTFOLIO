@@ -18,8 +18,8 @@ const SkillCard = ({ item }) => (
 
 const Skills = () => {
   return (
-    <div className="py-12 bg-bg">
-      <div className="max-w-7xl mx-auto my-12">
+    <div className="py-6 lg:py-12 bg-bg">
+      <div className="max-w-7xl mx-auto lg:my-12 px-4 pb-12">
         <Title
           subtitle={"what I use"}
           title1={"Skills &"}

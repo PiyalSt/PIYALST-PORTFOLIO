@@ -33,8 +33,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="py-12 bg-bg">
-      <div className="max-w-7xl mx-auto my-12">
+    <div className="py-6 lg:py-12 bg-bg">
+      <div className="max-w-7xl mx-auto lg:py-12 px-4 pb-12">
         <Title
           subtitle={"get in touch"}
           title1={"Contact"}
@@ -43,7 +43,7 @@ const Contact = () => {
         />
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 mt-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div className="max-w-5xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-10 pt-12 border border-surface2">
 
         {/* Left — Form */}
         <div className="bg-surface border border-surface2 rounded-md p-8 flex flex-col gap-5">
