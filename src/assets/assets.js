@@ -92,18 +92,32 @@ export const projects = [
 
 export const education = [
   {
-    year: "2022 - Present",
-    degree: "B.Sc in Computer Science",
-    institution: "XYZ University",
+    year: "2026 - Present",
+    degree: "Professional Full Stack Web Development",
+    institution: "Creative IT Institute",
     location: "Dhaka, Bangladesh",
-    gpa: "3.80",
+    gpa: "0.00",
+  },
+  {
+    year: "2026",
+    degree: "Professional Certification in Web Development",
+    institution: "Creative IT Institute",
+    location: "Dhaka, Bangladesh",
+    gpa: "A+",
+  },
+  {
+    year: "2021 - 2025",
+    degree: "Diploma in Computer Science",
+    institution: "Shariatpur Polytechnic Institute",
+    location: "Dhaka, Bangladesh",
+    gpa: "3.20 something!",
   },
   {
     year: "2019 - 2021",
-    degree: "Higher Secondary Certificate (HSC)",
-    institution: "XYZ College",
-    location: "Dhaka, Bangladesh",
-    gpa: "5.00",
+    degree: "Secondary School Certificate (SSC)",
+    institution: "Panga Mahesh Chandra Lala High School",
+    location: "Domar, Nilphamari, Bangladesh",
+    gpa: "3.83",
   },
 ];
 

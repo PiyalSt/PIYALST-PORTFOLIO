@@ -1,34 +1,68 @@
-# 👋 Hi, I'm Piyal Hasan
+# 👋 Hi — I'm Piyal Hasan
 
-> *// frontend.developer*
-
-A passionate **Frontend Developer** from Bangladesh 🇧🇩, building fast, beautiful, and interactive web experiences with modern tools.
+Frontend developer focused on fast, accessible, and delightful web experiences. I build modern UIs using React, Vite, and modern CSS—prioritizing performance, responsiveness, and user experience.
 
 ---
 
-## 🚀 Tech Stack
+## ✨ What I Do (Frontend Focus)
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-![Piyal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark&border_color=88ce02&icon_color=88ce02&title_color=88ce02)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=dark&border_color=88ce02&title_color=88ce02)
+- Design and build responsive, component-driven UIs with React and JSX.
+- Implement accessible interfaces (WCAG-aware) and semantic HTML.
+- Optimize loading and runtime performance (code-splitting, lazy loading).
+- Add polished UI interactions and micro-animations for better UX.
 
 ---
 
-## 🌐 Connect With Me
+## 🛠️ Tech & Tools
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/yourusername)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:you@email.com)
+React · Vite · JavaScript (ES6+) · CSS / Flexbox / Grid · Responsive Design · Accessibility · Git · HTML5
+
+Optional: TailwindCSS · GSAP · Framer Motion (used per-project)
 
 ---
 
-*⚡ Currently open to freelance work and full-time opportunities!*
+## 🚧 Selected Project Highlights
+
+- Portfolio site (this repo): a React + Vite single-page app showcasing projects, skills, and contact info.
+- Projects page: interactive cards with links, tech tags, and screenshots.
+- Learning Hub: notes and small experiments focusing on frontend patterns and animations.
+
+Link to live demos and individual project READMEs are available inside the `src/pages` and `public` folders.
+
+---
+
+## ▶️ Run Locally
+
+Install dependencies and start the dev server:
+
+```powershell
+npm install
+npm run dev
+```
+
+Build for production:
+
+```powershell
+npm run build
+```
+
+---
+
+## 📐 Design & Development Principles
+
+- Performance first: fast initial load and smooth interactions.
+- Mobile-first responsive layouts.
+- Accessibility: semantic markup, keyboard support, good color contrast.
+- Maintainable components with clear structure and small scope.
+
+---
+
+## 📫 Contact
+
+I'm open to frontend roles, collaborations, and freelance projects. Reach me at: your.email@example.com
+
+Connect: LinkedIn · GitHub · Email (replace placeholders above)
+
+---
+
+If you'd like, I can also update the project README sections for each demo, add screenshots, or generate social preview images. Want me to proceed?
