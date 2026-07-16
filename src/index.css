@@ -51,3 +51,11 @@ body {
   background: var(--border2);
   border-radius: 3px;
 } */
+
+.dir {
+  color: aqua;
+}
+
+.comment {
+  color: var(--color-gray-600)
+}

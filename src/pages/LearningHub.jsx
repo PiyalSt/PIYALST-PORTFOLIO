@@ -3,6 +3,7 @@ import Title from "../components/Title";
 import { learningHub } from "../assets/assets";
 import { FiExternalLink } from "react-icons/fi";
 import { MdAdd, MdDelete } from "react-icons/md";
+import { Link } from "react-router";
 
 // ─── Course Card ───────────────────────────────────────────
 const statusStyle = {
@@ -145,13 +146,19 @@ const LearningHub = () => {
 
   return (
     <div className="py-6 lg:py-12 bg-bg">
-      <div className="max-w-7xl mx-auto lg:py-12 px-4 pb-12">
+      <div className="max-w-7xl mx-auto lg:py-12 px-4 pb-12 flex flex-col gap-6 lg:gap-8 items-start">
         <Title
           subtitle={"what I'm learning"}
           title1={"Learning"}
           title2={"Hub"}
           para={"Courses I've taken, things I've learned, notes I've kept."}
         />
+        
+        <Link to="/learning-list">
+          <button className="bg-accent text-bg hover:bg-accent/80 text-sm font-inter font-medium py-2 px-4 rounded-md transition-colors duration-200 cursor-pointer">
+            Learn More
+          </button>
+        </Link>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 pt-12 border border-surface2">
